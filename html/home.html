@@ -33,6 +33,7 @@
                     <a class="nav-item nav-link active" href="#">Home</a>
                     <a class="nav-item nav-link" href="#section-about">About</a>
                     <a class="nav-item nav-link" href="#section-work">My Work</a>
+                    <a class="nav-item nav-link" href="#section-edits">Video Edits</a>
                     <a class="nav-item nav-link" href="#section-contact">Contact</a>
                 </div>
             </div>
@@ -131,28 +132,132 @@
                 </div>
             </div>
 
-            <div class="container">
-                <div class="row">
-                    <div id="videos" class="col-4"><iframe allowfullscreen height="250" width="330"
-                            src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
-                    <div id="videos" class="col-4"><iframe allowfullscreen height="250" width="330"
-                            src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
-                    <div id="videos" class="col-4"><iframe allowfullscreen height="250" width="330"
-                            src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
+            <div class="container-fluid">
+                <div class="d-flex row justify-content-around align-items-center">
+                    <div id="videos" class="col-md-6 flex-fill">
+                        <div class="row justify-content-center align-items-center">
+                            <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        </div>
+                    </div>
+                    <div id="videos" class="col-md-6 flex-fill">
+                        <div class="row justify-content-center align-items-center">
+                            <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        </div>
+                    </div>
+                    <div id="videos" class="col-md-6 flex-fill">
+                        <div class="row justify-content-center align-items-center">
+                            <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        </div>
+                    </div>
+                    <div id="videos" class="col-md-6 flex-fill">
+                        <div class="row justify-content-center align-items-center">
+                            <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div id="videos" class="col-4"><iframe allowfullscreen height="250" width="330"
-                            src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
-                    <div id="videos" class="col-4"><iframe allowfullscreen height="250" width="330"
-                            src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
-                    <div id="videos" class="col-4"><iframe allowfullscreen height="250" width="330"
-                            src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
+                <span id="dots"></span>
+                <span id="more">
+                    <div class="d-flex row justify-content-around align-items-center">
+                        <div id="videos" class="col-md-6 flex-fill">
+                            <div class="row justify-content-center align-items-center">
+                                <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
+                                    src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            </div>
+                        </div>
+                        <div id="videos" class="col-md-6 flex-fill">
+                            <div class="row justify-content-center align-items-center">
+                                <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
+                                    src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center justify-content-md-end align-items-center">
+                <div class="col-md-2 offset-md-5 button_container">
+                    <button type="button" class="btn btn-outline-secondary btn-sm" onclick="myFunction()"
+                        id="myBtn"><span>Show more</span></button>
                 </div>
             </div>
-            <!-- <button>More Works</button> -->
         </div>
+        <div id="section-edits"></div>
     </section>
 
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Show more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Show less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+
+    <section class="section-content-block">
+        <div class="container">
+            <div class="row section-heading-wrapper margin-bottom-11">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center no-img-separator">
+                    <h2><strong>Few of my Video Edits</strong></h2>
+                    <span class="heading-separator heading-separator-horizontal"></span>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row justify-content-around align-items-center">
+                    <div id="videos" class="col-md-4 flex-fill">
+                        <div class="row justify-content-center align-items-center">
+                            <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        </div>
+                    </div>
+                    <div id="videos" class="col-md-4 flex-fill">
+                        <div class="row justify-content-center align-items-center">
+                            <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        </div>
+                    </div>
+                    <div id="videos" class="col-md-4 flex-fill">
+                        <div class="row justify-content-center align-items-center">
+                            <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        </div>
+                    </div>
+                    <div id="videos" class="col-md-4 flex-fill">
+                        <div class="row justify-content-center align-items-center">
+                            <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        </div>
+                    </div>
+                    <div id="videos" class="col-md-4 flex-fill">
+                        <div class="row justify-content-center align-items-center">
+                            <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        </div>
+                    </div>
+                    <div id="videos" class="col-md-4 flex-fill">
+                        <div class="row justify-content-center align-items-center">
+                            <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer id="bgfooter">
         <div id="section-contact" class="container footer-distributed">
@@ -173,7 +278,7 @@
                         <p>+91 7987209848</p>
                     </div>
                     <div>
-                        <a target="_blank" href="https://www.instagram.com/__vedaant._/"><i
+                        <a target="_blank" href="https://www.instagram.com/__vedaant._/"><i aria-hidden="true"
                                 class="fa fa-instagram"></i></a>
                         <a target="_blank" href="https://www.facebook.com/sarthak.verma.399"><i aria-hidden="true"
                                 class="fa fa-facebook-square"></i></a>
