@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>Vedyam Music</title>
     <link rel="icon" class="tab-icon" href="../Asset/Vedyam_Logo.png">
+    <link href='https://fonts.googleapis.com/css?family=B612 Mono' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Arima Madurai' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -14,15 +17,17 @@
     <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../CSS/home.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/sbuttons.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sbuttons/dist/sbuttons.min.css"> -->
 </head>
 
 <body>
 
     <nav id="mainNavBar" class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="../Asset/Vedyam_Logo.png" width="56" height="56" class="d-inline-block align-top" alt="">
-                Vedyam
+            <img src="../Asset/Vedyam_Logo.png" width="56" height="56" class="d-inline-block align-top" alt="">
+            <a class="navbar-brand" href="#">      
+                VEDYAM
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#expandme"
                 aria-controls="expandme" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,13 +75,12 @@
                 </div>
                 <div class="carousel-item" data-interval="4000" data-pause="false">
                     <img src="../Asset/fest.jpg" class="d-block w-100" alt="Slide3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Life is one grand sweet song so start the music.</p>
+                    </div>
                 </div>
                 <div class="carousel-item" data-interval="4000" data-pause="false">
                     <img src="../Asset/quote.jpg" class="d-block w-100" alt="Slide4">
-                    <div class="carousel-caption d-none d-md-block">
-
-                        <p>Life is one grand sweet song so start the music.</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -137,25 +141,25 @@
                     <div id="videos" class="col-md-6 flex-fill">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
-                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                src="https://www.youtube.com/embed/XdX5RkB0pqA"></iframe>
                         </div>
                     </div>
                     <div id="videos" class="col-md-6 flex-fill">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
-                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                src="https://www.youtube.com/embed/HthPhM8-bpc"></iframe>
                         </div>
                     </div>
                     <div id="videos" class="col-md-6 flex-fill">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
-                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                src="https://www.youtube.com/embed/bG-r9-3PWsQ"></iframe>
                         </div>
                     </div>
                     <div id="videos" class="col-md-6 flex-fill">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
-                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                src="https://www.youtube.com/embed/Chw6HaGU3eM"></iframe>
                         </div>
                     </div>
                 </div>
@@ -165,13 +169,13 @@
                         <div id="videos" class="col-md-6 flex-fill">
                             <div class="row justify-content-center align-items-center">
                                 <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
-                                    src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                    src="https://www.youtube.com/embed/gytfON3tMpQ"></iframe>
                             </div>
                         </div>
                         <div id="videos" class="col-md-6 flex-fill">
                             <div class="row justify-content-center align-items-center">
                                 <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
-                                    src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                    src="https://www.instagram.com/tv/CGzwdPXJHOC/?utm_source=ig_embed&amp;utm_campaign=loading"></iframe>
                             </div>
                         </div>
                     </div>
@@ -181,8 +185,8 @@
         <div class="container">
             <div class="row justify-content-center justify-content-md-end align-items-center">
                 <div class="col-md-2 offset-md-5 button_container">
-                    <button type="button" class="btn btn-outline-secondary btn-sm" onclick="myFunction()"
-                        id="myBtn"><span>Show more</span></button>
+                    <button type="button" class="sbtn rounded-diagonal-tl-btn red-btn" onclick="myFunction()"
+                        id="myBtn"><span>Show More</span></button>
                 </div>
             </div>
         </div>
@@ -207,7 +211,7 @@
         }
     </script>
 
-    <section class="section-content-block">
+    <section class="section-content-block-btn">
         <div class="container">
             <div class="row section-heading-wrapper margin-bottom-11">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center no-img-separator">
@@ -221,43 +225,50 @@
                     <div id="videos" class="col-md-4 flex-fill">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
-                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                src="https://www.youtube.com/embed/fcmwl8sWv78"></iframe>
                         </div>
                     </div>
                     <div id="videos" class="col-md-4 flex-fill">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
-                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                src="https://www.youtube.com/embed/M3MXxLZbvpg"></iframe>
                         </div>
                     </div>
                     <div id="videos" class="col-md-4 flex-fill">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
-                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                src="https://www.youtube.com/embed/IfKnW6wqrJM"></iframe>
                         </div>
                     </div>
                     <div id="videos" class="col-md-4 flex-fill">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
-                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                src="https://www.youtube.com/embed/0WLbM6W4rfU"></iframe>
                         </div>
                     </div>
                     <div id="videos" class="col-md-4 flex-fill">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
-                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                src="https://www.youtube.com/embed/ruGn3k9MNNs"></iframe>
                         </div>
                     </div>
                     <div id="videos" class="col-md-4 flex-fill">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
-                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                src="https://www.youtube.com/embed/emvvYbVTcnw"></iframe>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- <div class="row justify-content-center p-3">
+            <div class="row">
+                <button class="sbtn bouncy-btn green-btn rounded-btn">Top</button>
+            </div>
+        </div> -->
     </section>
+
+
 
     <footer id="bgfooter">
         <div id="section-contact" class="container footer-distributed">
@@ -286,7 +297,7 @@
                                 aria-hidden="true" class="fa fa-youtube-play"></i></a>
                     </div>
                     <div id="copyright">
-                        <p>&#169; 2021 Vedyam-Music</p>
+                        <p>&#169; 2021 VEDYAM MUSIC</p>
                     </div>
                 </div>
             </div>
