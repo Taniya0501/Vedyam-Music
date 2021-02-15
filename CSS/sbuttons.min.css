@@ -11,6 +11,11 @@
     overflow: hidden;
     font-size: 0.9rem;
 }
+@media (max-width: 993px) {
+    .sbtn{
+        font-size: 0.8rem;
+    }
+} 
 
 .sbtn:active, .sbtn:focus, .sbtn:hover {
     outline: 0

@@ -18,31 +18,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../CSS/home.css">
     <link rel="stylesheet" type="text/css" href="../CSS/sbuttons.min.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sbuttons/dist/sbuttons.min.css"> -->
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
 
-    <nav id="mainNavBar" class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
-        <div class="container">
+    <nav id="mainNavBar" class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+        <!-- <div class="container-fluid"> -->
+        <div class="row justify-content-end align-items-center">
             <img src="../Asset/Vedyam_Logo.png" width="56" height="56" class="d-inline-block align-top" alt="">
-            <a class="navbar-brand" href="#">      
-                VEDYAM
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#expandme"
-                aria-controls="expandme" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="expandme">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home</a>
-                    <a class="nav-item nav-link" href="#section-about">About</a>
-                    <a class="nav-item nav-link" href="#section-work">My Work</a>
-                    <a class="nav-item nav-link" href="#section-edits">Video Edits</a>
-                    <a class="nav-item nav-link" href="#section-contact">Contact</a>
-                </div>
+            <a class="navbar-brand align-self-center" href="#">VEDYAM</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#expandme"
+            aria-controls="expandme" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="expandme">
+            <div class="navbar-nav">
+                <a class="nav-item p-0 nav-link active !important" href="#">Home</a>
+                <a class="nav-item p-0 nav-link" href="#section-about">About</a>
+                <a class="nav-item p-0 nav-link" href="#section-work">My Work</a>
+                <a class="nav-item p-0 nav-link" href="#section-edits">Video Edits</a>
+                <a class="nav-item p-0 nav-link" href="#section-contact">Contact</a>
             </div>
         </div>
+        <!-- </div> -->
     </nav>
 
 
@@ -69,7 +68,6 @@
                 <div class="carousel-item" data-interval="4000" data-pause="false">
                     <img src="../Asset/band.jpg" class="d-block w-100" alt="Slide2">
                     <div class="carousel-caption d-none d-md-block">
-
                         <p>Music is the wine that fills the cup of silence.</p>
                     </div>
                 </div>
@@ -81,21 +79,25 @@
                 </div>
                 <div class="carousel-item" data-interval="4000" data-pause="false">
                     <img src="../Asset/quote.jpg" class="d-block w-100" alt="Slide4">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="row justify-content-start">
+                            <p>Music is life itself . . .</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div id="section-about"></div>
     </section>
 
-
     <section class="section-content-block">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-
+                <div class="col-lg-6">
+                    <!-- <div class="row justify-content-end"> -->
                     <div class="about-us-container theme-custom-box-shadow">
-                        <div class="row section-heading-wrapper margin-bottom-11">
-                            <div class="col-lg-12 col-md-12 col-sm-12 text-left no-img-separator">
+                        <div class="section-heading-wrapper">
+                            <div class="text-left no-img-separator">
                                 <h2><strong>About Me</strong></h2>
                                 <span class="heading-separator heading-separator-horizontal"></span>
                             </div>
@@ -105,8 +107,10 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dignissimos maxime
                                 possimus atque doloremque consequuntur iusto debitis labore. Fugiat aperiam repellat
                                 earum nulla delectus corporis consequuntur eum perferendis quae officia.
-                                Deleniti culpa optio facilis pariatur ad, mollitia quisquam? Fugiat, quisquam, veniam
-                                possimus, earum cumque veritatis aliquid dolorum impedit blanditiis voluptatibus harum
+                                Deleniti culpa optio facilis pariatur ad, mollitia quisquam? Fugiat, quisquam,
+                                veniam
+                                possimus, earum cumque veritatis aliquid dolorum impedit blanditiis voluptatibus
+                                harum
                                 saepe officiis maiores expedita voluptatem provident perspiciatis ex praesentium!
                                 Dignissimos voluptates, quasi labore eligendi voluptatem accusantium magnam sapiente
                                 illo autem, expedita, odio dolore. Cumque molestiae architecto adipisci ipsam sunt
@@ -114,23 +118,28 @@
                                 tempore.</p>
                         </div>
                     </div>
+                    <!-- </div> -->
                 </div>
 
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <figure class="about-img theme-custom-box-shadow">
-                        <img src="../Asset/aboutme.jpg" width="540px" height="400px" alt="about" />
-                    </figure>
+                <div class="col-lg-6">
+                    <div class="row justify-content-center">
+                        <div class="about-img theme-custom-box-shadow">
+                            <!-- <figure class="about-img theme-custom-box-shadow"> -->
+                            <img class="img-fluid" src="../Asset/aboutme.jpg" width="500rem" height="400rem"
+                                alt="about">
+                            <!-- </figure> -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div id="section-work"></div>
     </section>
 
-
     <section class="section-content-block">
         <div class="container">
             <div class="row section-heading-wrapper margin-bottom-11">
-                <div class="col-lg-12 col-md-12 col-sm-12 text-right no-img-separator">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-right no-img-separator" id="my-work">
                     <h2><strong>My Work</strong></h2>
                     <span class="heading-separator heading-separator-horizontal"></span>
                 </div>
@@ -138,44 +147,50 @@
 
             <div class="container-fluid">
                 <div class="d-flex row justify-content-around align-items-center">
-                    <div id="videos" class="col-md-6 flex-fill">
-                        <div class="row justify-content-center align-items-center">
-                            <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
-                                src="https://www.youtube.com/embed/XdX5RkB0pqA"></iframe>
-                        </div>
-                    </div>
-                    <div id="videos" class="col-md-6 flex-fill">
+                    <div id="videos" class="col-md-6">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
                                 src="https://www.youtube.com/embed/HthPhM8-bpc"></iframe>
                         </div>
                     </div>
-                    <div id="videos" class="col-md-6 flex-fill">
+                    <div id="videos" class="col-md-6">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
                                 src="https://www.youtube.com/embed/bG-r9-3PWsQ"></iframe>
                         </div>
                     </div>
-                    <div id="videos" class="col-md-6 flex-fill">
+                    <div id="videos" class="col-md-6">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
                                 src="https://www.youtube.com/embed/Chw6HaGU3eM"></iframe>
+                        </div>
+                    </div>
+                    <div id="videos" class="col-md-6">
+                        <div class="row justify-content-center align-items-center">
+                            <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
+                                src="https://www.youtube.com/embed/gytfON3tMpQ"></iframe>
                         </div>
                     </div>
                 </div>
                 <span id="dots"></span>
                 <span id="more">
                     <div class="d-flex row justify-content-around align-items-center">
-                        <div id="videos" class="col-md-6 flex-fill">
+                        <div id="videos" class="col-md-6">
                             <div class="row justify-content-center align-items-center">
                                 <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
-                                    src="https://www.youtube.com/embed/gytfON3tMpQ"></iframe>
+                                    src="https://www.youtube.com/embed/9Ci6lOlqPqM"></iframe>
                             </div>
                         </div>
-                        <div id="videos" class="col-md-6 flex-fill">
+                        <div id="videos" class="col-md-6">
                             <div class="row justify-content-center align-items-center">
-                                <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
-                                    src="https://www.instagram.com/tv/CGzwdPXJHOC/?utm_source=ig_embed&amp;utm_campaign=loading"></iframe>
+                                <!-- <iframe id="shadow-frame" allowfullscreen height="280" width="400" style="border:none;"
+                                    src="https://www.youtube.com/embed/XdX5RkB0pqA"></iframe> -->
+                                <a target="_blank" href="https://youtu.be/XdX5RkB0pqA">
+                                    <abbr title="Zara Zara-RHTDM|Female Cover|Riya Shrivastava|Vasudev">
+                                        <img class="iframe" src="../Asset/works.PNG" height="280" width="400"
+                                            alt="Zara Zara-RHTDM|Female Cover|Riya Shrivastava|Vasudev">
+                                    </abbr>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -184,7 +199,7 @@
         </div>
         <div class="container">
             <div class="row justify-content-center justify-content-md-end align-items-center">
-                <div class="col-md-2 offset-md-5 button_container">
+                <div class="row justify-content-end button_container">
                     <button type="button" class="sbtn rounded-diagonal-tl-btn red-btn" onclick="myFunction()"
                         id="myBtn"><span>Show More</span></button>
                 </div>
@@ -222,40 +237,46 @@
 
             <div class="container-fluid">
                 <div class="row justify-content-around align-items-center">
-                    <div id="videos" class="col-md-4 flex-fill">
+                    <div class="col-md-6 col-xl-4" id="edits">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
                                 src="https://www.youtube.com/embed/fcmwl8sWv78"></iframe>
                         </div>
                     </div>
-                    <div id="videos" class="col-md-4 flex-fill">
+                    <div class="col-md-6 col-xl-4" id="edits">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
                                 src="https://www.youtube.com/embed/M3MXxLZbvpg"></iframe>
                         </div>
                     </div>
-                    <div id="videos" class="col-md-4 flex-fill">
+                    <div class="col-md-6 col-xl-4" id="edits">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
                                 src="https://www.youtube.com/embed/IfKnW6wqrJM"></iframe>
                         </div>
                     </div>
-                    <div id="videos" class="col-md-4 flex-fill">
+                    <div class="col-md-6 col-xl-4" id="edits">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
                                 src="https://www.youtube.com/embed/0WLbM6W4rfU"></iframe>
                         </div>
                     </div>
-                    <div id="videos" class="col-md-4 flex-fill">
+                    <div class="col-md-6 col-xl-4" id="edits">
                         <div class="row justify-content-center align-items-center">
                             <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
                                 src="https://www.youtube.com/embed/ruGn3k9MNNs"></iframe>
                         </div>
                     </div>
-                    <div id="videos" class="col-md-4 flex-fill">
+                    <div class="col-md-6 col-xl-4" id="edits">
                         <div class="row justify-content-center align-items-center">
-                            <iframe id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
-                                src="https://www.youtube.com/embed/emvvYbVTcnw"></iframe>
+                            <!-- <iframe target="_blank" !important id="shadow-frame" allowfullscreen height="240" width="330" style="border:none;"
+                                src="https://www.youtube.com/embed/emvvYbVTcnw"></iframe> -->
+                            <a target="_blank" href="https://youtu.be/emvvYbVTcnw">
+                                <abbr title="Te Amo x Soniyo Mashup | Cover by Rohan Bharti">
+                                    <img cursor class="iframe" src="../Asset/edits.PNG" height="240" width="330"
+                                        alt="Te Amo x Soniyo Mashup">
+                                </abbr>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -279,27 +300,27 @@
                 </div>
             </div>
             <div class="footer-center">
+                <!-- <div> -->
                 <div>
-                    <div>
-                        <i class="fa fa-envelope"></i>
-                        <p><a href="#">vermavedaant@gmail.com</a></p>
-                    </div>
-                    <div>
-                        <i class="fa fa-phone"></i>
-                        <p>+91 7987209848</p>
-                    </div>
-                    <div>
-                        <a target="_blank" href="https://www.instagram.com/__vedaant._/"><i aria-hidden="true"
-                                class="fa fa-instagram"></i></a>
-                        <a target="_blank" href="https://www.facebook.com/sarthak.verma.399"><i aria-hidden="true"
-                                class="fa fa-facebook-square"></i></a>
-                        <a target="_blank" href="https://www.youtube.com/channel/UCGp5Hd2c5yRJvFNw3d-m8RQ"><i
-                                aria-hidden="true" class="fa fa-youtube-play"></i></a>
-                    </div>
-                    <div id="copyright">
-                        <p>&#169; 2021 VEDYAM MUSIC</p>
-                    </div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="#section-content">vermavedaant@gmail.com</a></p>
                 </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+91 7987209848</p>
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.instagram.com/__vedaant._/"><i aria-hidden="true"
+                            class="fa fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/sarthak.verma.399"><i aria-hidden="true"
+                            class="fa fa-facebook-square"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCGp5Hd2c5yRJvFNw3d-m8RQ"><i
+                            aria-hidden="true" class="fa fa-youtube-play"></i></a>
+                </div>
+                <div class="mt-4" id="copyright">
+                    <p>Copyright &#169; 2021 Vedyam Music.</p>
+                </div>
+                <!-- </div> -->
             </div>
         </div>
     </footer>
