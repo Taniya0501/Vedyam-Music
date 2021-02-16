@@ -5,7 +5,7 @@ html {
 
 body {
   font-family: 'Arima Madurai';
-  background: #cc95c0;
+  background: #fbfbfb;
   background: -webkit-linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
   background: linear-gradient(to bottom right, #cc95c0, #dbd4b4, #7aa1d2);
   background-repeat: no-repeat;
@@ -94,7 +94,8 @@ a.nav-item.nav-link {
   font-family: 'Arima Madurai';
   letter-spacing: 0em;
   font-weight: 700;
-  color: #555555;
+  color: #000000;
+  text-shadow: -0.03rem 0.02rem 0.35rem #644c4ce1;
 }
 
 .section-heading-wrapper h2:after {
@@ -298,6 +299,10 @@ a.nav-item.nav-link {
   margin: 0rem 5rem;
 }
 
+abbr[title] {
+  cursor: pointer !important;
+}
+
 /*------------------------------ footer------------------------- */
 
 footer {
@@ -333,7 +338,7 @@ footer {
   /* height: 1em; */
   border-radius: 50%;
   text-align: center;
-  line-height: 42px;
+  line-height: 40px;
   margin: 0.23em;
   vertical-align: middle;
 }
@@ -476,6 +481,9 @@ footer {
     width: 350px !important;
     height: 260px !important;
   }
+  #my-work h2, #my-work{
+    text-align: center !important;
+  }
 }
 
 @media (max-width: 670px) {
@@ -498,7 +506,7 @@ footer {
     height: 195px !important;
   }
   .section-heading-wrapper strong{
-    font-size: 20px !important;
+    font-size: 22px !important;
   }
   .navbar-brand {
     font-size: 1.5rem;
@@ -538,7 +546,7 @@ footer {
     font-size: 1rem;
   }
   .section-heading-wrapper strong{
-    font-size: 15px !important;
+    font-size: 18px !important;
   }
   #bgfooter .footer-center div p{
     font-size: 12px;
@@ -548,5 +556,7 @@ footer {
   }
   .footer-distributed .footer-center i{
     margin: 0.01rem;
+    /* height: 0.01rem !important;
+    width: 0.01rem !important; */
   }
 }
