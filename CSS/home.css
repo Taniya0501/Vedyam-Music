@@ -261,7 +261,7 @@ a.nav-item.nav-link {
   position: relative;
   width: 632px;
   z-index: 2;
-  padding: 37px 30px 30px;
+  padding: 37px 30px 40px;
   margin-top: 42px;
 }
 
@@ -388,7 +388,7 @@ footer {
     padding: 28px 20px 20px;
   }
   .about-us-container p {
-    margin-bottom: 0 !important;
+    margin-bottom: 2em !important;
     font-size: 15px;
   }
   .about-us-container .section-heading-wrapper h2 {
