@@ -5,24 +5,25 @@ html {
 
 body {
   font-family: 'Arima Madurai';
-  background: #fbfbfb;
-  background: -webkit-linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
-  background: linear-gradient(to bottom right, #cc95c0, #dbd4b4, #7aa1d2);
-  background-repeat: no-repeat;
+  background-color: #e2e2bf;
+  background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 #mainNavBar {
   height: fit-content;
   padding: 0.38rem 9rem;
-  box-shadow: 0rem 0rem 0.8rem 0.5rem #505050;
-  /* background-color: #faf4de; */
+  box-shadow: 0rem 0rem 0.8rem 0.4rem #333232;
+  background-color: #000000;
 }
 
 .navbar-brand {
   font-size: 2rem; 
   font-family: B612 Mono;
   letter-spacing: 0.4rem;
-  text-shadow: -0.2rem 0.2rem 0.35rem #ebac25b4;
+  /* text-shadow: -0.2rem 0.2rem 0.35rem #ebac25b4; */
   /* text-shadow: 0 0 5px #5cda22be; */
   font-weight: bold;
   margin: 0px 1rem 0px 0.5rem;
@@ -88,14 +89,20 @@ a.nav-item.nav-link {
 .section-heading-wrapper h2 {
   text-align: center;
   position: relative;
-  font-size: 37px;
+  font-size: 30px;
   line-height: 42px;
   margin-bottom: 20px;
-  font-family: 'Arima Madurai';
+  /* font-family: 'Arima Madurai'; */
+  /* font-family: Verdana, Tahoma, sans-serif !important; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0em;
-  font-weight: 700;
+  /* font-weight: 700 !important; */
   color: #000000;
-  text-shadow: -0.03rem 0.02rem 0.35rem #644c4ce1;
+  text-shadow: 0.2em -0.2em 0.28rem #787975e1;
+}
+
+.section-heading-wrapper #contactme h2,.theme-custom-box-shadow .section-heading-wrapper h2 {
+  text-shadow: none !important;
 }
 
 .section-heading-wrapper h2:after {
@@ -331,7 +338,7 @@ footer {
 }
 
 .footer-distributed .footer-center i {
-  background-color: #33383b;
+  /* background-color: #33383b; */
   color: #ffffff;
   font-size: 2em;
   width: 38px;
@@ -431,10 +438,11 @@ footer {
     width: 320px !important;
     height: 235px !important;
   }
-  /* .about-img img{
-    width: 460px;
-    height: 380px;
-  } */
+  .about-img{
+    /* width: 460px;
+    height: 380px; */
+    box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  }
 }
 
 @media (max-width: 990px) {
@@ -525,6 +533,7 @@ footer {
   .about-img img{
     width: 360px !important;
     height: 370px !important;
+    box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
   }
 }
 
