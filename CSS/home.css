@@ -98,12 +98,12 @@ a.nav-item.nav-link {
   letter-spacing: 0em;
   /* font-weight: 700 !important; */
   color: #000000;
-  text-shadow: 0.2em -0.2em 0.28rem #787975e1;
+  /* text-shadow: 0.2em -0.2em 0.28rem #787975e1; */
 }
 
-.section-heading-wrapper #contactme h2,.theme-custom-box-shadow .section-heading-wrapper h2 {
+/* .section-heading-wrapper #contactme h2,.theme-custom-box-shadow .section-heading-wrapper h2 {
   text-shadow: none !important;
-}
+} */
 
 .section-heading-wrapper h2:after {
   /* background-image: url('../images/separator.png'); */
