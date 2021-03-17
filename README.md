@@ -2,9 +2,9 @@
 
 ### under-development
 
-This is an official Web-Profile page for Music Producer Mr. Vedaant Verma.
+This is an official Web-Profile page for Music Producer :musical_score: and Pianist :musical_keyboard: Mr. Vedaant Verma.
 
-Visit the website at [Vedyam](https://vedyam-music.netlify.app/)                
+Visit the website at [Vedyam](https://vedyam-music.netlify.app/) :musical_note:             
 
 ### Below are some screenshots of webpage --
 
