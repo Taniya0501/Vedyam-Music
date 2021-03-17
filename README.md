@@ -11,7 +11,9 @@ Visit the website at [Vedyam](https://vedyam-music.netlify.app/)
 ![alt-text](https://github.com/Taniya0501/Vedyam-Music/blob/main/v1.JPG)
 
 
+
 ![alt-text](https://github.com/Taniya0501/Vedyam-Music/blob/main/v2.JPG)
+
 
 
 ![alt-text](https://github.com/Taniya0501/Vedyam-Music/blob/main/v3.JPG)
