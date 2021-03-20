@@ -268,8 +268,9 @@ a.nav-item.nav-link {
   position: relative;
   width: 632px;
   z-index: 2;
-  padding: 37px 30px 40px;
+  padding: 20px 20px 10px;
   margin-top: 42px;
+  text-align: justify;
 }
 
 .about-details {
